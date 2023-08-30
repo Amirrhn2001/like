@@ -19,10 +19,14 @@ this is a service to record likes and dislikes of an entity.
 * Hexagonal
 
 ## How to filter
-###To use filter use this json array of object in query string
+To use filter use this json array of object in query string
+```
 [{"field":"field name", "value":"value","operator":"mongoDB operator"}]
-###Also pagination is required in query string
+```
+Also pagination is required in query string
+```
 {"skip":0,"limit":1}
+```
 
 ### Operator you allow to use
 * $eq
