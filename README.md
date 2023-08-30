@@ -18,7 +18,7 @@ this is a service to record likes and dislikes of an entity.
 ## Architecture
 * Hexagonal
 
-## Ho to filter
+## How to filter
 To use filter use this json array of object in query string:
 [{"field":"field name", "value":"value","operator":"mongoDB operator"}]
 
